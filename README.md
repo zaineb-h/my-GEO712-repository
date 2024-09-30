@@ -1,33 +1,43 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# my-GEO712-repository
+# My Research
 
-<!-- badges: start -->
-<!-- badges: end -->
+My research investigates the **pathophysiology of delirium** that is
+developed post-surgery, as well as identifying **potential biomarkers to
+assist clinicians in the diagnosis of delirium.**
 
-The goal of my-GEO712-repository is to …
+# Favourites
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+## Favourite Music
+
+1.  Merry-go-round of life
+2.  Crisis of my home
+3.  Weekend whip
+4.  Unbreakable
+5.  Airplanes
+
+## Favourite Equation
+
+$$
+a^2 + b^2 = c^2
+$$
+
+## Favourite Artists
+
+| Name            | Achievements                                  |
+|-----------------|-----------------------------------------------|
+| Joe Hisashi     | Known for a large number of composed works    |
+| Makoto Miyazaki | A star composer for many Anime shows          |
+| The Fold        | Released 4 full-length albums                 |
+| Carpark North   | Formed in Denmark on 28 July 1999             |
+| B.o.B           | Won the “Best Song of the Year” award in 2010 |
+
+# A chunk of code
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+print("hello world")
+#> [1] "hello world"
 ```
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date.
-
-You can also embed plots, for example:
-
-![](README_files/figure-gfm/pressure-1.png)<!-- -->
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub.
+![](images/toadsweating.png)<!-- -->

@@ -11,25 +11,49 @@ knitr::opts_chunk$set(
 )
 ```
 
-# my-GEO712-repository
+# My Research
+My research investigates the **pathophysiology of delirium** that is developed post-surgery, as well as identifying **potential biomarkers to assist clinicians in the diagnosis of delirium.**
 
-<!-- badges: start -->
-<!-- badges: end -->
+# Favourites
 
-The goal of my-GEO712-repository is to ...
+## Favourite Music
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+1. Merry-go-round of life
+2. Crisis of my home
+3. Weekend whip
+4. Unbreakable
+5. Airplanes
 
-```{r cars}
-summary(cars)
+## Favourite Equation
+
+$$
+a^2 + b^2 = c^2
+$$
+
+## Favourite Artists
+
+Name|Achievements
+---|---
+Joe Hisashi|Known for a large number of composed works
+Makoto Miyazaki|A star composer for many Anime shows
+The Fold|Released 4 full-length albums
+Carpark North|Formed in Denmark on 28 July 1999 
+B.o.B|Won the "Best Song of the Year" award in 2010
+
+
+
+# A chunk of code
+
+```{r}
+print("hello world")
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
 
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
+```{r include=FALSE}
+library(here)
 ```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.
+
+```{r echo=FALSE}
+knitr::include_graphics(here("images", "toadsweating.png"))
+```
